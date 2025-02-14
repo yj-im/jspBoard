@@ -1,4 +1,4 @@
-<%@page import="org.iclass.dao.CommunityCommentsDao"%>
+	<%@page import="org.iclass.dao.CommunityCommentsDao"%>
 <%@page import="org.iclass.dto.CommunityComments"%>
 <%@page import="org.iclass.dto.BookUser"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"

@@ -11,6 +11,7 @@
 		href="${pageContext.request.contextPath }/css/community.css?v=3"> 
 </head>
 <body>
+<%@ include file="../header.jsp" %>
 			<main id="write">
 			<h3>북챗 :: 커뮤니티</h3>
 			<p>오늘 무슨 책을 읽으셨나요? </p>
@@ -55,7 +56,7 @@
 	 	<button type="button" onclick="isValid()">저장</button>
 	 	<!-- 유효성검사 후 자바스크립트에서 submit. (hrd_mvc2 프로젝트 유효성 검사 참고.)  -->
 	 	<button type="reset">다시쓰기</button>
-	 	<button type="button" onclick="location.href='list?page=${page}'">목록</button>  
+	 	<button type="button" onclick="location.href='list.jsp?page=${page}'">목록</button>  
 	 	<!-- 현재페이지 번호 전달 - 순서5) -->
  	</td>
  	</tr>
